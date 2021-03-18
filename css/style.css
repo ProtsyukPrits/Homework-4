@@ -291,8 +291,7 @@ body {
 .our-foto,
 .portfolio-nav,
 .portfolio-section,
-.portfolio-list
- {
+.portfolio-list {
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -330,10 +329,24 @@ body {
 .top-contacts {
   margin-left: auto;
 }
+.item-top-contacts {
+  align-self: center;
+}
 .top-contacts .item-top-contacts:not(:last-child) {
   margin-right: 50px;
 }
 
+.contacts-head-hover::before {
+  display: inline-block;
+  content: '';
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  margin-right: 10px;
+  width: 10px;
+  height: 16px;
+  background-image: url('../images/smartphone.svg');
+}
 .main-box {
   max-width: 1600;
   height: 600px;
@@ -354,11 +367,11 @@ body {
   margin-right: 30px;
 }
 
-.our-work{
+.our-work {
   flex-direction: column;
 }
 .our-team {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   flex-direction: column;
 }
 
@@ -382,7 +395,6 @@ body {
   align-items: flex-start;
   padding: 0px;
   margin: 0px;
-
 }
 
 .contacts .item-contacts:not(:last-child) {
@@ -405,7 +417,7 @@ body {
 .portfolio-list .item-portfolio:nth-child(3n) {
   margin-right: 0px;
 }
-.portfolio-list .item-portfolio:nth-child(3n+1) {
+.portfolio-list .item-portfolio:nth-child(3n + 1) {
   margin-left: 0px;
 }
 .portfolio-list .item-portfolio:nth-child(n + 4) {
