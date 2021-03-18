@@ -1,0 +1,429 @@
+body {
+  font-family: Roboto;
+}
+/* Утилиты */
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+.list-two {
+  margin: 0;
+  padding: 0;
+}
+/* Шапка */
+/* веб */
+
+.logo-web {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #2196f3;
+}
+
+.logo-studio-black {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: black;
+}
+
+.logo {
+  text-decoration: none;
+}
+
+/* кнопки главной навигации */
+.nav-button-hover {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+
+.nav-button-hover:hover {
+  color: #2196f3;
+  background-color: white;
+}
+
+/* контакты  */
+.contacts-head-hover {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+
+.contacts-head-hover:hover {
+  color: #2196f3;
+  background-color: white;
+}
+
+.tel-head-hover {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+
+.tel-head-hover:hover {
+  color: #2196f3;
+  background-color: white;
+}
+/* Главное  */
+
+/* 1 Первая страница */
+.main-service {
+  margin: 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* главная кнопка */
+.button-hover {
+  margin-top: 30px;
+  padding: 10px 32px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.button-hover:hover {
+  background: #2196f3;
+  color: white;
+}
+
+/* заголовок для занятия и команды */
+.our-title {
+  text-align: center;
+  margin: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/* заголовок текст */
+.title-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+/* текст */
+.text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* имена команды */
+.names-teammate {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/* професия команды */
+.professions-teammate {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* 2 Вторая страница */
+/* Якора */
+.anchor {
+  padding: 6px 22px;
+  border: none;
+  border-radius: 4px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.anchor:hover {
+  background-color: #2196f3;
+  color: white;
+}
+
+/* меню просмотра */
+.menu-name {
+  margin: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.menu-classification {
+  margin: 0px;
+  margin-top: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* Футер */
+/* Веб */
+.logo-web {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #2196f3;
+}
+
+.logo-studio-white {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #ffffff;
+}
+
+/* контакты */
+.address {
+  margin-top: 20px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-contacts {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+/* Флекс бокс для страниц */
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 15px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.top-button,
+.top-contacts,
+.benefits-container,
+.our-foto,
+.portfolio-nav,
+.portfolio-section,
+.portfolio-list
+ {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio-main,
+.our-title {
+  margin-bottom: 50px;
+}
+
+.header-section {
+  align-items: center;
+  padding: 25px 0;
+}
+
+.top-line {
+  max-width: none;
+  border-bottom: 1px solid #ececec;
+}
+
+.top-button {
+  display: flex;
+  width: 294px;
+  margin-left: 93px;
+  justify-content: space-between;
+}
+
+.top-button .item-top-button:not(:last-child) {
+  margin-right: 50px;
+}
+
+.top-contacts {
+  margin-left: auto;
+}
+.top-contacts .item-top-contacts:not(:last-child) {
+  margin-right: 50px;
+}
+
+.main-box {
+  max-width: 1600;
+  height: 600px;
+  background-color: #2f303a;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 195px;
+  padding-bottom: 205px;
+  text-align: center;
+}
+
+.benefits {
+  padding-top: 89px;
+}
+
+.benefits-container .item-benefits:not(:last-child) {
+  margin-right: 30px;
+}
+
+.our-work{
+  flex-direction: column;
+}
+.our-team {
+  background-color: #F5F4FA;
+  flex-direction: column;
+}
+
+.our-foto .item-foto:not(:last-child) {
+  margin-right: 30px;
+}
+.footer-section {
+  color: white;
+  background-color: #2f303a;
+}
+.footer-container {
+  display: block;
+  align-items: flex-start;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.contacts {
+  display: block;
+  list-style: none;
+  align-items: flex-start;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+.contacts .item-contacts:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.portfolio-main {
+  max-width: 611px;
+  padding: 0px;
+}
+.portfolio-nav .item-portfolio-nav:not(:last-child) {
+  margin-right: 8px;
+}
+
+.item-portfolio {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.portfolio-list .item-portfolio:nth-child(3n) {
+  margin-right: 0px;
+}
+.portfolio-list .item-portfolio:nth-child(3n+1) {
+  margin-left: 0px;
+}
+.portfolio-list .item-portfolio:nth-child(n + 4) {
+  margin-top: 30px;
+}
+.portfolio-foto-text {
+  padding: 20px 24px;
+  margin: 0;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+}
+
+.portfolio-section {
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.portfolio-list {
+  flex-wrap: wrap;
+}
