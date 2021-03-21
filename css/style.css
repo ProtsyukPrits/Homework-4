@@ -154,6 +154,8 @@ body {
 
 /* текст */
 .text {
+  margin: 0px;
+
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -176,6 +178,8 @@ body {
 
 /* професия команды */
 .professions-teammate {
+  margin: 0px;
+
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -185,6 +189,18 @@ body {
   color: #757575;
 }
 
+/* Постоянные клиенты */
+.regular-customers {
+  margin: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 /* 2 Вторая страница */
 /* Якора */
 .anchor {
@@ -295,6 +311,7 @@ body {
 .top-contacts,
 .benefits-container,
 .our-foto,
+.regular-customers-container,
 .portfolio-nav,
 .portfolio-section,
 .portfolio-list {
@@ -307,7 +324,8 @@ body {
 }
 
 .portfolio-main,
-.our-title {
+.our-title,
+.regular-customers {
   margin-bottom: 50px;
 }
 
@@ -353,24 +371,42 @@ body {
 }
 
 .benefits {
-  padding-top: 89px;
+  margin-top: 94px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .benefits-container .item-benefits:not(:last-child) {
   margin-right: 30px;
 }
 
-.our-work {
+.our-work,
+.regular-customers-section {
   flex-direction: column;
 }
 .our-team {
   background-color: #f5f4fa;
   flex-direction: column;
 }
+.names-teammate,
+.title-text {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
 
 .our-foto .item-foto:not(:last-child) {
   margin-right: 30px;
 }
+.item-foto-box {
+  text-align: center;
+  width: 270px;
+  height: 428px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .footer-section {
   color: white;
   background-color: #2f303a;
@@ -438,4 +474,58 @@ body {
 .contacts-icons {
   margin-right: 10px;
   fill: currentColor;
+}
+.benefits-icons {
+  width: 270px;
+  height: 120px;
+  padding: 25px 100px;
+  background-color: #f5f4fa;
+}
+
+.container-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 206px;
+  height: 44px;
+  margin: 16px 32px 30px 32px;
+}
+.item-foto .team-icons-button:not(:last-child) {
+  margin-right: 10px;
+}
+.team-icons-button {
+  text-align: center;
+  border: none;
+  padding: 12px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: white;
+}
+.our-team-icons {
+  fill: currentColor;
+}
+.team-icons-button:hover {
+  color: white;
+  background-color: #2196f3;
+}
+.customers-icons-button {
+  text-align: center;
+  border: none;
+  width: 170px;
+  height: 90px;
+  padding: 0px;
+  background-color: white;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.customers-icons {
+  fill: currentColor;
+}
+.customers-icons-button:hover {
+  color: #2196f3;
+  border-color: #2196f3;
+}
+.regular-customers-container .customers-items:not(:last-child) {
+  margin-right: 30px;
 }
