@@ -294,6 +294,9 @@ body {
   text-decoration: none;
 }
 .footer-join {
+  margin: 0px;
+  padding-top: 12px;
+
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -378,6 +381,10 @@ body {
   padding-top: 195px;
   padding-bottom: 205px;
   text-align: center;
+  background-image: url(../images/hero.jpg);
+  background-size: cover;
+  background-color: rgba(47, 48, 58, 0.4);
+  background-position: center;
 }
 
 .benefits {
@@ -422,8 +429,7 @@ body {
   background-color: #2f303a;
 }
 .footer-container {
-  display: block;
-  align-items: flex-start;
+  justify-content: flex-start;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -557,4 +563,16 @@ body {
 .footer-icons-button:hover {
   color: white;
   background-color: #2196f3;
+}
+.footer-icons-box {
+  margin-left: 70px;
+}
+.footer-join-section {
+  margin-left: 70px;
+}
+.footer-icons-section {
+  margin-top: 20px;
+}
+.footer-icons-section .footer-icons-button:not(:last-child) {
+  margin-right: 10px;
 }
